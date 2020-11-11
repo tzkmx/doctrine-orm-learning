@@ -6,6 +6,8 @@ use DI\Container;
 use Slim\Factory\AppFactory;
 
 require('../vendor/autoload.php');
+$dotenv = Dotenv\Dotenv::createImmutable(realpath( __DIR__ . '/../'));
+$dotenv->load();
 
 // register services
 $container = new Container();

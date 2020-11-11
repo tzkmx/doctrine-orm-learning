@@ -1,0 +1,7 @@
+# Copy this to a file named ".env" to use your own variables
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_NAME=doctrine-learning
+DB_USER=student
+DB_PASS=change-this-password
+
